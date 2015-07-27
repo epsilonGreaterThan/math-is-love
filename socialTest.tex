@@ -1,0 +1,87 @@
+%%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%------------------------------------------------------------
+%
+\documentclass{amsart}
+%
+%----------------------------------------------------------
+% This is a sample document for the AMS LaTeX Article Class
+% Class options
+% -- Point size: 8pt, 9pt, 10pt (default), 11pt, 12pt
+% -- Paper size: letterpaper(default), a4paper
+% -- Orientation: portrait(default), landscape
+% -- Print size: oneside, twoside(default)
+% -- Quality: final(default), draft
+% -- Title page: notitlepage, titlepage(default)
+% -- Start chapter on left:
+% openright(default), openany
+% -- Columns: onecolumn(default), twocolumn
+% -- Omit extra math features:
+% nomath
+% -- AMSfonts: noamsfonts
+% -- PSAMSFonts (fewer AMSfonts sizes):
+% psamsfonts
+% -- Equation numbering:
+% leqno(default), reqno (equation numbers are on the right side)
+% -- Equation centering:
+% centertags(default), tbtags
+% -- Displayed equations (centered is the default):
+% fleqn (equations start at the same distance from the right side)
+% -- Electronic journal:
+% e-only
+%------------------------------------------------------------
+% For instance the command
+% \documentclass[a4paper,12pt,reqno]{amsart}
+% ensures that the paper size is a4, fonts are typeset at the size 12p
+% and the equation numbers are on the right side
+%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+%------------------------------------------------------------
+% Theorem like environments
+%
+\newtheorem{theorem}{Theorem}
+\theoremstyle{plain}
+\newtheorem{acknowledgment}{Acknowledgment}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}{Notation}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\numberwithin{equation}{section}
+%--------------------------------------------------------
+\begin{document}
+\title[Primes in Patterns]{Schinzel's hypothesis, the Chinese Remainder Theorem, and finding several primes at once}
+\author{Elijah Allen}
+
+
+
+
+
+
+Prove or disprove:  the growth rate of $\ln n$ is faster than $\prod_{p\in \mathbb{P} : p \leq n}\frac{p}{max(1,p-k)}$ where p is prime and $k  \in \mathbb{Z}^+$.
+
+$n \rightarrow \infty$
+Maybe a hint?:   for $k=1$ we have $\prod\frac{p}{max(1,p-1)}=\prod\frac{p}{p-1}=\prod\frac{1}{1-\frac{1}{p}}=\sum{\frac{1}{n}}$
+
+
+
+
+
+\end{document} 
