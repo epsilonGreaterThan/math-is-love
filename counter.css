@@ -1,0 +1,19 @@
+/* Increment counter-name by 1 
+counter-increment: counter-name;
+
+ Decrement counter-name by 1 
+counter-increment: counter-name -1;
+
+ Increment counter1 by 1, and decrement counter2 by 4
+counter-increment: counter1 counter2 -4;
+
+ Do not increment/decrement anything: used to hide less specific values 
+counter-increment: none;
+
+ Global values 
+counter-increment: inherit;
+counter-increment: initial;
+counter-increment: unset;*/
+
+
+
